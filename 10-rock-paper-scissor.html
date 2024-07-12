@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rock Paper Scissors </title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="rock-paper-scissor.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Gloria+Hallelujah&display=swap"
       rel="stylesheet"
     />
-
   </head>
 
   <body>
@@ -23,7 +22,7 @@
         <button
           class="rock-button"
           onclick="
-        playGame('rock');
+          playGame('rock');
       "
         >
           <img class="button-image" src="images/rock.jpg" />
@@ -34,7 +33,7 @@
         <button
           class="paper-button"
           onclick="
-        playGame('paper');
+          playGame('paper');
       "
         >
           <img class="button-image" src="images/paper.jpg" />
@@ -45,7 +44,7 @@
         <button
           class="scissor-button"
           onclick="
-        playGame('scissor');
+          playGame('scissor');
       "
         >
           <img class="button-image" src="images/scissor.jpg" />
@@ -56,18 +55,14 @@
     <div class="result">
       <p class="js-result"></p>
     </div>
-    
-    
+
     <div class="moves">
       <p class="js-moves"></p>
     </div>
-    
-    
 
     <div class="score">
       <p class="js-score"></p>
     </div>
-    
 
     <div class="reset">
       <button
@@ -78,7 +73,8 @@
         score.ties = 0;
         localStorage.removeItem('score');
         updateScoreElement();
-    ">
+    "
+      >
         Reset
       </button>
     </div>
